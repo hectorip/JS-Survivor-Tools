@@ -14,6 +14,6 @@ const PI = 3;
 // Un valor asignado con 'const' no se puede re-asignar
 const PI = 3;
 ((diametro) => {
-    PI = 3.14159265; // Error de compilación
+    PI = 3.14159265; // Error en ejecución
     return PI * diametro;
 })(5);
