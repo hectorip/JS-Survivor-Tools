@@ -20,4 +20,4 @@
 // 12 => La segunda variable multiplicador "eclipsa" la que está en el scope superior
 
 ((x) =>
-    (y) => x)(2)(4) // Combinador de identidad
+    (y) => x)(2)(4) // Combinador K, útil por los efectos secundarios
