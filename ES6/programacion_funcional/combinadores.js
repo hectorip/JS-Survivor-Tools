@@ -7,5 +7,3 @@
 
 // Combinador I
 ((x) => x)
-
-
