@@ -12,3 +12,5 @@ function hacerAlgo(){
 const hacerOtraCosa = function hacerEsaOtraCosa(){
     console.log("Esta función hace otra cosa");
 }
+
+// hacerEsaOtraCosa() => Error: la función no existe.
