@@ -12,3 +12,11 @@ Ejercicios y temario del curso, con apuntes para recordar.
 2. Herramientas Básicas para usar ES6 en el navegador
 3. Funciones
 4. Corredores de tareas
+
+## Recursos
+
+### Chequeo de compatibilidad
+
+Aquí se puede verificar el estado de las caracterísitcas de ES6 y las versiones siguientes.
+ 
+ - http://kangax.github.io/compat-table/es6/
