@@ -15,8 +15,20 @@ Ejercicios y temario del curso, con apuntes para recordar.
 
 ## Recursos
 
+En esta sección se encuentran los recursos para apoyo en el curso.
+
+### Draft
+
+La especificación del lenguaje y los borradores de las próximas versiones se encuentran en:
+[ECMA 262](https://tc39.github.io/ecma262/)
+
+### Aprendizaje
+
+- [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/), por Nicholas C. Zakas, gratis, en línea, inglés
+- [Exploring ES6](http://exploringjs.com/es6.html), por el Dr. Axel Rauschmayer, gratis, en línea, inglés
+
 ### Chequeo de compatibilidad
 
 Aquí se puede verificar el estado de las caracterísitcas de ES6 y las versiones siguientes.
- 
+
  - http://kangax.github.io/compat-table/es6/
