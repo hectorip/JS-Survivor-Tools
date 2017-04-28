@@ -1,5 +1,6 @@
 # Curso JS Survivor Tools
 
+![Cover](http://res.cloudinary.com/hectorip/image/upload/v1493355381/cover_e7rgbm.jpg)
 Ejercicios y temario del curso, con apuntes para recordar.
 
 1. ES6 y ES7 (ES2015 y ES2016)
@@ -40,11 +41,9 @@ Ejercicios y temario del curso, con apuntes para recordar.
       - **Angular**
       - Backbone
       - Ember
-
     - View
       - React
       - **Vue**
-
     - Web Components
       - **Polymer**
       - WebComponents.org
@@ -55,7 +54,7 @@ Ejercicios y temario del curso, con apuntes para recordar.
 
 En esta sección se encuentran los recursos para apoyo en el curso.
 
-### Draft
+### Estándar
 
 La especificación del lenguaje y los borradores de las próximas versiones se encuentran en:
 [ECMA 262](https://tc39.github.io/ecma262/)
