@@ -4,7 +4,8 @@ Ejercicios y temario del curso, con apuntes para recordar.
 
 1. ES6 y ES7 (ES2015 y ES2016)
 
-    0. ¿Qué es ECMAScript?
+    1. ¿Qué es ECMAScript?
+    2. Engines y entornos (Node, V8)
     1. Nuevos tipos de bindings(const, let)
     2. Iterables and Looping
     3. Mejoras a Arrays
@@ -17,7 +18,7 @@ Ejercicios y temario del curso, con apuntes para recordar.
     8. Async/Await(ES7)
 
 2. Herramientas Básicas para usar ES6 en el navegador (transpilers)
-
+    
     - Transpilers
       - **Babel**
       - Traceur
