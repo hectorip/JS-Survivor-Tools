@@ -6,13 +6,49 @@ Ejercicios y temario del curso, con apuntes para recordar.
 
     0. ¿Qué es ECMAScript?
     1. Nuevos tipos de bindings(const, let)
-    2. Nueva sintaxis para funciones y tipos de argumentos(Arrow functions y operador ..., rest y spread)
-    3. Clases
-    4. Promesas
-    5. Async/Await(ES7)
+    2. Iterables and Looping
+    3. Mejoras a Arrays
+    8. Símbolos
+    3. Nueva sintaxis para funciones y tipos de argumentos(Arrow functions y operador ..., rest y spread)
+    4. Cadenas de texto
+    5. Destructuring
+    6. Clases
+    7. Promesas
+    8. Async/Await(ES7)
 
 2. Herramientas Básicas para usar ES6 en el navegador (transpilers)
-4. Corredores de tareas
+
+    - Transpilers
+      - **Babel**
+      - Traceur
+    - Linters
+      - **ESLint**
+    - Bundlers
+      - Browserify
+      - **Webpack**
+    - Task Runners
+      - **Gulp**
+      - Grunt
+    - Manejadores de paquetes
+      - Bower
+      - NPM
+      - Yarn
+3. Análisis de las Librerías y Frameworks actuales
+    
+    - MVC
+      - **Angular**
+      - Backbone
+      - Ember
+
+    - View
+      - React
+      - **Vue**
+
+    - Web Components
+      - **Polymer**
+      - WebComponents.org
+
+4. El Futuro
 
 ## Recursos
 
