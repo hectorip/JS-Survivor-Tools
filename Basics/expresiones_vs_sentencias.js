@@ -10,7 +10,7 @@ function saludar(){
     console.log("holi");
 } // se pude usar como (saludar());
 
-
+saludar();
 // Declaración como expresión
 // No crea una asignación del nombre de la función. 
 
@@ -19,3 +19,4 @@ function saludar(){
 });
 // no se puede usar, a menos que se guarde en una variable, 
 // todo lo que se usa entre paréntesis se considera una expresión.
+saludar_olvidada(); // Error
