@@ -19,4 +19,4 @@ saludar();
 });
 // no se puede usar, a menos que se guarde en una variable, 
 // todo lo que se usa entre paréntesis se considera una expresión.
-saludar_olvidada(); // Error
+//saludar_olvidada(); // Error
