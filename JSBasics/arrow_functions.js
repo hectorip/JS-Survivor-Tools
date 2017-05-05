@@ -21,6 +21,7 @@ const saludar = (frase, a_quien) => {
 }
 console.log(saludar("Bitte", "Sofi"));
 
+// Declaración más sencilla
 () => 0;
 
 (x) => x * x;
@@ -32,6 +33,18 @@ x => x * x;
     let z = x * x + y * y;
     return Math.sqrt(z);
 }
+
+function promedio(a, b, c){
+    (() => console.log(arguments))();
+}
+// promedio(4, 5, 6);
+
+
+const promedio_arrow = (a, b, c) => console.log(arguments);
+promedio_arrow(3, 4, 5);
+
+
+
 
 
 
