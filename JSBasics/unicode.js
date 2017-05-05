@@ -21,7 +21,8 @@ console.log(my_emoji.charCodeAt(1));
 console.log(my_emoji.codePointAt(0));
 // console.log(my_emoji.codePointAt(1));
 
-console.log("æ".normalize() == "ae".normalize());
-
+console.log("Æ".normalize() == "AE".normalize());
+console.log("Æ".normalize());
+console.log("AE".normalize());
 console.log("hola ".repeat(10));
 // normalize();
