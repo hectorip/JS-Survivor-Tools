@@ -3,6 +3,7 @@
 // función que no recibe argumentos y devuelve 0
 () => 0; // Si es una expresión que representa un valor se devuelve automáticamente.
 (() => 0)(); // IIFE => Immediately Invoked Function Expression
+() => {} // Función vacía
 
 (() => {
     return 0;
