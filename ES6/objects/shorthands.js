@@ -28,4 +28,4 @@ const trabajador_six = {
     trabajar(){
         console.log(`${ this.nombre } comenzó a trabajar`);
     }
-}
+} // las funciones pueden ser declaradas sin la palabra clave 'function' dentro del objeto
