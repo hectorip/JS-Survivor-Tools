@@ -29,3 +29,28 @@ const trabajador_six = {
         console.log(`${ this.nombre } comenzó a trabajar`);
     }
 } // las funciones pueden ser declaradas sin la palabra clave 'function' dentro del objeto
+
+// Nombres de propiedades calcualados
+
+// ES5 
+var celular = {
+    marca: "Apple"
+}, modelo_key = "modelo";
+
+celular[modelo] = "iPhone"; // la única forma de usar nombres de propiedad calculados era sobre
+//objetos ya construidos
+
+// Error
+var modelo_key = "modelo",
+    celular = {
+        marca: "HTC",
+        modelo_key: "M8" // quiero el nomnre de propiedad "modelo", no modelo_key
+    }
+
+
+// ES6
+
+let modelo_key_six = "modelo", celular_six = {
+    marca: "Sony",
+    [modelo_key_six]: "Xperia" // las llaves me permiten usar propiedades calculadas en la declaración literal de objetos
+}
