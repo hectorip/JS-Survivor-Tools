@@ -23,6 +23,7 @@ var trabajador = {
     }
 }
 
+// ES6
 const trabajador_six = {
     nombre,
     trabajar(){
