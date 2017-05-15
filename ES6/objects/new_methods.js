@@ -41,4 +41,20 @@ console.log(direccion.nombre); // se han copiado los valores
 console.log(direccion.nombre_completo);
 direccion.nombre = "Iván";
 console.log(direccion.nombre_completo);
+// los accesores no se copian como métodos, sino se copia el valor que
+// el accesor devuelva al momento de la asignación
+
+// Object.is
+// ES5
+console.log(NaN === NaN); // falso
+console.log(0 === -0); // true, pero son diferentes
+
+
+// ES6
+console.log(Object.is(NaN, NaN));
+console.log(Object.is(0, -0));
+
+
+
+
 
