@@ -32,9 +32,13 @@ let  datos_personales = {
     nombre: "Héctor",
     apellido: "Patricio",
     get nombre_completo(){
-        return nombre + " " + apellido;
+        return this.nombre + " " + this.apellido;
     }
 }
 
 Object.assign(direccion, datos_personales);
-datos_personales = direccion.nombre; // se han copiado los valores
+console.log(direccion.nombre); // se han copiado los valores
+console.log(direccion.nombre_completo);
+direccion.nombre = "Iván";
+console.log(direccion.nombre_completo);
+
