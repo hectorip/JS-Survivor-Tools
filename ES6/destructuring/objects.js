@@ -6,6 +6,21 @@ const http_response = {
     status: "200",
     response: { message: "Success" }
 };
-const { status, response } = http_response;
+let { status, response } = http_response;
 
-((response) => alert(http_response))({ my_status, my_response } = http_response;);
+// (response => console.log(response))({ my_status, my_response } = http_response); // error
+
+// (function(respuesta) {
+//     console.log(respuesta);
+// })({un_status, una_respuesta} = http_response); // error
+
+function log(response){
+    console.log(response);
+}
+
+log({status, response} = http_response); // funciona
+
+
+// default en destructuring
+
+const {un_status, una_respuesta, cabeceras = []} = http_response; // si es undefined o no existe, se usa el default
