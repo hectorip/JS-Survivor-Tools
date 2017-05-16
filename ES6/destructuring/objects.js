@@ -7,3 +7,5 @@ const http_response = {
     response: { message: "Success" }
 };
 const { status, response } = http_response;
+
+((response) => alert(http_response))({ my_status, my_response } = http_response;);
