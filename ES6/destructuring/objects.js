@@ -8,19 +8,34 @@ const http_response = {
 };
 let { status, response } = http_response;
 
-// (response => console.log(response))({ my_status, my_response } = http_response); // error
+// (response => console.log(response))({ status, response } = http_response); // error
 
 // (function(respuesta) {
 //     console.log(respuesta);
-// })({un_status, una_respuesta} = http_response); // error
+// })({status, response} = http_response); // error
 
 function log(response){
     console.log(response);
 }
 
-log({status, response} = http_response); // funciona
+log({status, response} = http_response); // funciona, el destructuring evalua al valor del lado derecho
 
 
 // default en destructuring
 
 const {un_status, una_respuesta, cabeceras = []} = http_response; // si es undefined o no existe, se usa el default
+
+// Usando nombres de variables diferentes
+
+const bad_reponse = {
+    status: 500,
+    message: "Server Timed Out"
+}
+
+let { status: bad_status, message: bad_message } = bad_reponse;
+
+
+
+
+
+
