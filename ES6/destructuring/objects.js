@@ -33,6 +33,13 @@ const bad_reponse = {
 }
 
 let { status: bad_status, message: bad_message } = bad_reponse;
+console.log(bad_status); // 500
+console.log(bad_message);// "Server Timed Out"
+
+// Defauls en cambio de nombre de variables
+
+let {headers: bad_headers = "No headers"} = bad_response;
+console.log(bad_headers); // No headers
 
 
 
