@@ -25,4 +25,3 @@ let [ [uno_uno], [dos_uno], [tres_uno]  ] = matrix;
 console.log(uno_uno); // 1
 console.log(dos_uno); // 4
 console.log(tres_uno); // 7
-
