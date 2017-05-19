@@ -1,7 +1,11 @@
 // Destructuring en arrays
 
 let series = [1, 2, 3, 4, 5, 6, 7];
-console.log("Destructuración de arrays");
+console.log(`
+###################################################
+Destructuración de arrays
+###################################################
+`);
 let [uno, dos, tres] = series;
 console.log(uno); // 1
 console.log(dos); // 2

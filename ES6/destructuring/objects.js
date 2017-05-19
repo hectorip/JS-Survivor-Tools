@@ -2,6 +2,12 @@
 // Es descomponer una estructura de datos en varias partes pequeñas
 
 // Objetos
+console.log(`
+############################################
+Objetos
+############################################
+`);
+
 const http_response = {
     status: "200",
     response: { message: "Success" }
