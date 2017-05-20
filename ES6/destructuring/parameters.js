@@ -13,3 +13,6 @@ function setCookie(name, value, {lifetime, path, secure}){
     console.log(secure);
 }
 
+setCookie("unaCookie", "no-lo-se", {6000, "/", true});
+//setCookie("unaCookie", "no-lo-se"); // errror
+
