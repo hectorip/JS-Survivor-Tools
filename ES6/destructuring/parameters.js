@@ -14,5 +14,23 @@ function setCookie(name, value, {lifetime, path, secure}){
 }
 
 setCookie("unaCookie", "no-lo-se", {6000, "/", true});
-//setCookie("unaCookie", "no-lo-se"); // errror
+// setCookie("unaCookie", "no-lo-se"); // errror
 
+function setCookieWithDefaults(name, value, {
+    lifetime=6000,
+    path="/",
+    secure=true}={}){
+    // Esta función tiene default por si no mandan el argumento
+    // Y default si el argumento envíado no tiene todos los valores
+    console.log(lifetime);
+    console.log(path);
+    console.log(secure);
+}
+
+console.log(`
+###########################################################
+Destructuring en argumentos, con default
+###########################################################
+`);
+setCookieWithDefaults("my-cookie", ":P");
+setCookieWithDefaults("my-cookie", ":P", {lifetime: 9000, path: "/a_path", secure: false});
