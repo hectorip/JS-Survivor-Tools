@@ -13,7 +13,7 @@ function setCookie(name, value, {lifetime, path, secure}){
     console.log(secure);
 }
 
-setCookie("unaCookie", "no-lo-se", {6000, "/", true});
+setCookie("unaCookie", "no-lo-se", {lifetime: 6000, path: "/", secure: true});
 // setCookie("unaCookie", "no-lo-se"); // errror
 
 function setCookieWithDefaults(name, value, {
@@ -33,4 +33,8 @@ Destructuring en argumentos, con default
 ###########################################################
 `);
 setCookieWithDefaults("my-cookie", ":P");
+console.log(`
+    Usando default
+`);
 setCookieWithDefaults("my-cookie", ":P", {lifetime: 9000, path: "/a_path", secure: false});
+
