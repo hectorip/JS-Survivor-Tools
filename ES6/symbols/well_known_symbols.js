@@ -1,12 +1,27 @@
 console.log(`
 #################################################
-Símbolos conocidos
+Símbolos conocidos (well-known Symbols)
+
 Con el objetivo de permitir cambiar algunas
 funciones que en ES5 parecían mágicas, ES6 ha
 hecho disponibles una serie de Symbols que pueden
 usarse para sobreescribir o acceder a comportami-
 entos default. Todos están disponibles a través
-del objeto Symbol. La referencia completa está
-en: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Symbol#Well-known_symbols
+del objeto Symbol, como propiedades.
+La referencia completa está en: 
+https://goo.gl/KPrJyP
 #################################################
 `);
+
+console.log(`
+    Ejemplo: Symbol.toStringTag;
+    `);
+console.log(Symbol.toStringTag);
+
+let Persona = {
+    nombre: "Bartleby"
+}
+Persona.prototype[Symbol.toStringTag] = function(){
+    return "Persona";
+}
+
