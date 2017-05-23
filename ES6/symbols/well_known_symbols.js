@@ -18,10 +18,10 @@ console.log(`
     `);
 console.log(Symbol.toStringTag);
 
-let Persona = {
-    nombre: "Bartleby"
+function Persona(nombre){
+    this.nombre = nombre;
 }
-Persona.prototype[Symbol.toStringTag] = function(){
-    return "Persona";
-}
+Persona.prototype[Symbol.toStringTag] = "Personaje";
 
+let bartleby = new Persona("Bartleby");
+console.log(bartleby.toString());
