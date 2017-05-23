@@ -31,3 +31,8 @@ let papa = Symbol.for('padre'); // Verifica si está en el registro y lo trae
 console.log(persona[padre]); // Es el mismo, por que lo trajo del registro
 console.log(persona[papa]);
 
+
+console.log(`
+    Llave a partir de Symbolo
+`);
+console.log(Symbol.keyFor(padre));
