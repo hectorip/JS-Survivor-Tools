@@ -33,6 +33,6 @@ console.log(persona[papa]);
 
 
 console.log(`
-    Llave a partir de Symbolo
+    Llave a partir de Symbol
 `);
 console.log(Symbol.keyFor(padre));
