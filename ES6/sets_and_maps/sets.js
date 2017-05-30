@@ -25,9 +25,16 @@ console.log(mugiwara.size);
 console.log(migiwara.has("Luffy"));
 console.log(migiwara.has("Sanji"));
 
+console.log(mugiwara.size);
+mugiwara.clear(); // limpiar el array
+console.log(mugiwara.size);
+
 console.log(`
 ###################################################
 Memory leak
+Al agrgar un objeto a un Set, se crea un referencia
+a él que previene que su memoria sea liberada por
+el recolector de basura.
 ###################################################
 `);
 let personaje = {
@@ -36,3 +43,4 @@ let personaje = {
 }
 mugiwara.add(personaje);
 personaje = null; // la referencia se queda guardada y no se puede reciclar la memoria
+
