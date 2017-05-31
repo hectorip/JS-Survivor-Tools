@@ -22,8 +22,8 @@ let mugiwara = new Set(["Luffy", "Zoro", "Ussop"]); // también pueden recibir u
 console.log(mugiwara);
 console.log(mugiwara.size);
 
-console.log(migiwara.has("Luffy"));
-console.log(migiwara.has("Sanji"));
+console.log(mugiwara.has("Luffy"));
+console.log(mugiwara.has("Sanji"));
 
 console.log(mugiwara.size);
 mugiwara.clear(); // limpiar el array
