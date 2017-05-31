@@ -44,3 +44,9 @@ let personaje = {
 mugiwara.add(personaje);
 personaje = null; // la referencia se queda guardada y no se puede reciclar la memoria
 
+
+// Son Iterables
+
+mugiwara.forEach((nakama) => {
+    console.log("Este nakama se llama: " + nakama.nombre);
+});
