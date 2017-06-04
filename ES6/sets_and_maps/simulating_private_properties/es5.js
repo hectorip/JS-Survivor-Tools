@@ -9,7 +9,7 @@ var Carro = function(){
     var _id = 0, propiedades_privadas = {};
 
     var Carro = function(modelo){
-        this._id = _id++;
+        this._id = _id++; // esto debería ser no modificable
         propiedades_privadas[this._id] = {modelo: modelo};
     }
     Carro.prototype.getModelo = function(){
