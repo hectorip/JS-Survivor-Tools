@@ -9,6 +9,7 @@
 
 ((arg0) => arguments[0])('Parangaricutirimicuaro'); // Error de ejecución
 
-// Es un objeto muy parecido a un array
 
-(function(){ return arguments})('uno', 'uno', 'dos', 'tres', 'cinco');
+// Es un objeto muy parecido a un array, con llaves numéricas
+
+(function(){ console.log(arguments)})('uno', 'uno', 'dos', 'tres', 'cinco');
