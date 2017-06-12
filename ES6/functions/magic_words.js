@@ -7,7 +7,9 @@
 
 (function(arg0){ return arguments[0]})('Parangaricutirimicuaro'); // => 'Parangaricutirimicuaro'
 
-((arg0) => arguments[0])('Parangaricutirimicuaro'); // Error de ejecución
+
+// las funciones Aarrow no poseen 'arguments'
+// ((arg0) => arguments[0])('Parangaricutirimicuaro'); // Error en ejecución
 
 
 // Es un objeto muy parecido a un array, con llaves numéricas
