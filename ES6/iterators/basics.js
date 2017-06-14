@@ -59,3 +59,5 @@ console.log(iterador.next()); // {value: 3, done: false}
 
 
 
+
+
