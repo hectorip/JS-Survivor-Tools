@@ -11,7 +11,9 @@ corre sobre los valores. Funciona con cualquier
 objeto iterable.
 #################################################
 `);
+
 // Arrays
+
 let versiones = ["ES6", "ES7", "ES8"];
 
 for(version of versiones){
@@ -19,9 +21,10 @@ for(version of versiones){
 }
 
 // Mapas
+
 let diccionario = new Map([
     ["pletórico", "Lleno de algo bueno"],
-    ["chaca", "habitante de iztapalapa"],
+    ["inmarcesible", "Que no se puede marchitar"],
 ]);
 
 console.log(diccionario.get('pletórico'));
