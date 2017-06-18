@@ -10,3 +10,5 @@ let un_emoji = "😛";
 console.log(un_emoji.charAt(0)); // ""
 console.log(un_emoji.length); // 2 -- Lenght incorrecto
 console.log(un_emoji.charAt(1)); // ""
+
+// contains
