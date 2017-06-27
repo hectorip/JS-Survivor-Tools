@@ -16,3 +16,5 @@ const productorMultiplicadores = function(multiplicador){
         }
     })
 };
+
+productorMultiplicadores(5)(6)(7)

@@ -73,6 +73,7 @@ let PersonClass = class {
         console.log(this.name);
     }
 };
+
 let person = new PersonClass("Héctor");
 
 person.sayName(); // outputs "Héctor"
